@@ -2,3 +2,38 @@
     margin: 0;
     padding: 0;
 }
+.entete{
+width: 100%;
+height:60vh ;
+background-color: aqua;
+}
+.milieu1{
+    width: 100%;
+    height:30vh ;
+    background-color: rgb(37, 41, 41);
+}
+.milieu2{
+   width: 100%;
+    height:10vh ;
+    background-color: rgb(68, 0, 255);
+}
+.image{
+    height: 40%;
+    width: 100%;
+    background-color: aliceblue;
+}
+.bio{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(47, 142, 224);
+}
+.projet{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(219, 56, 15);
+}
+.photo{
+    height:100px;
+    width: 100px;
+    background-color: gray;
+}
