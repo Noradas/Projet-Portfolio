@@ -3,24 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* debut de l'entete */
 .entete{
     width: 100%;
     height:60vh;
 }
-.milieu1{
-    width: 100%;
-    height:30vh;
-}
-.milieu2{
-   width: 100%;
-    height:10vh;
-}
+
 .image{
     background-image: url(./img/pic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90%;
 }
+
+/* debut de la biographie */
 .bg{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -49,6 +46,8 @@ p{
     width: 424px;
     margin-top: -200px;
 }
+
+/* debut de mes projets */
 .bg1{
     background-color: #2B2D42;
     padding: 20x;
@@ -61,33 +60,41 @@ p{
     height: 25vh;
     color: white;
 }
+.icons div{
+    margin-bottom: 10px;
+}
+span{
+    font-size: 25px;
+    margin-left: 5px;
+}
+i{
+   font-size: 25px;
+   margin-right: 15px;
+}
 h2{
     margin-left: 20px;
     font-size: 5em;
     text-align: center;
     margin-bottom: 20px;
 }
-input{
-    padding: 10px;
-    border: 2px solid black;
-    margin-bottom: 10px;
-}
-textarea{
-    border: 2px solid black;
-    margin-bottom: 10px;   
-}
 
+/* debut de la partie contacts et compétences */
 .container{
+    height: 30vh;
     display: flex;
     margin-right: 8%;
     margin-left: 8%;
-    margin-top: 50px;
+    margin-top: 100px;
     justify-content: space-between;
-    background-color: ;
 }
 .niveau{
     display: flex;
     text-align: center;
+    margin-top: 40px;
+}
+
+h4{
+    margin-bottom: 25px;
 }
 h5{
     margin-top: 25px;
@@ -97,9 +104,39 @@ h5{
     margin-right: 25px;
 }
 .niveau div img{
-    width: 300px;
+    width: 150px;
+
 }
-.milieu{
+
+input{
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    background-color: #C4C4C4;
+}
+textarea{
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #C4C4C4;
+}
+.bouton{
+    cursor: pointer;
+}
+.bouton:hover{
+    background-color: #E7A6AE;
+    transition: 0.8s;
+}
+/* debut du footer */
+footer{
+    background-color: #2B2D42;
+}
+.footer{
+    height: 10vh;
     display: flex;
-    text-align: right;
+    margin-left: 8%;
+    margin-right:8%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
 }
