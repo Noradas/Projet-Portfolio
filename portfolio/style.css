@@ -14,9 +14,10 @@ body{
 }
 
 .image{
-    background: rgb(41, 41, 41, 0.7)url(./img/photo.jpg);
+    background: rgb(41, 41, 41, 0.7)url(./img/photo.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left bottom;
     height: 100%;
     background-blend-mode: darken;
 }
