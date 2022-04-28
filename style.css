@@ -73,9 +73,15 @@ p{
 /* debut de mes projets */
 .bg1{
     background-color: #2B2D42;
-    padding: 20x;
+    padding: 20px;
 }
-
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 .icons{
     background-color: #2B2D42;
     font-size: 1em;
